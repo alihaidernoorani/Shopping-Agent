@@ -57,7 +57,7 @@ agent = Agent(
 )
 
 result = Runner.run_sync(
-    agent, "Cutlery", run_config=config
+    agent, "Zen Table", run_config=config
 )
 
 def main():
