@@ -467,12 +467,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "openai-agents" },
+    { name = "python-dotenv" },
     { name = "requests" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "openai-agents", specifier = ">=0.2.2" },
+    { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "requests", specifier = ">=2.32.4" },
 ]
 
