@@ -66,6 +66,7 @@ shopping_agent = Agent(
         """,
     tools=[get_product]
 )
+
 def main():
     result = Runner.run_sync(
         shopping_agent, "What is the price for Zen table?", run_config=config
